@@ -1,0 +1,120 @@
+@font-face {
+  font-family: kahroba;
+  src: url(/fonts/Kahroba-VF-OA[wght\,wdth\,CNTR].ttf);
+}
+.kahroba {
+  font-family: kahroba;
+}
+
+nav.bg-nav-color {
+  background-color: rgb(25.5, 25.5, 25.5) !important;
+}
+nav.bg-nav-color .container-fluid a {
+  transition: 0.5s;
+}
+nav.bg-nav-color .container-fluid a:hover {
+  filter: drop-shadow(0px 0px 5px white);
+}
+nav.bg-nav-color .container-fluid span {
+  color: rgb(255, 255, 255);
+  transition: 0.8s;
+}
+nav.bg-nav-color .container-fluid span:hover {
+  color: rgb(0, 0, 0);
+}
+nav.bg-nav-color .container-fluid form input {
+  background-color: transparent !important;
+  border: 2px solid rgb(255, 255, 255) !important;
+  padding: 10px;
+  color: white;
+}
+nav.bg-nav-color .container-fluid form input::-moz-placeholder {
+  color: white;
+  font-family: kahroba;
+}
+nav.bg-nav-color .container-fluid form input::placeholder {
+  color: white;
+  font-family: kahroba;
+}
+nav.bg-nav-color .container-fluid form input:hover {
+  box-shadow: 0px 0px 5px white;
+}
+nav.bg-nav-color .container-fluid form input:focus {
+  box-shadow: 0px 0px 5px white;
+  outline: 0px 0px 5px white !important;
+  border: solid rgb(255, 255, 255) 2px !important;
+}
+nav.bg-nav-color .container-fluid form button {
+  border: 2px solid rgb(255, 255, 255) !important;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  background-color: white !important;
+}
+nav.bg-nav-color .container-fluid form button::-moz-placeholder {
+  color: white;
+  font-family: kahroba;
+}
+nav.bg-nav-color .container-fluid form button::placeholder {
+  color: white;
+  font-family: kahroba;
+}
+nav.bg-nav-color .container-fluid form button:hover {
+  box-shadow: 0px 0px 5px white;
+}
+nav.bg-nav-color .container-fluid .navbar-toggler {
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  transition: 0.5s;
+}
+nav.bg-nav-color .container-fluid .navbar-toggler:hover {
+  background-color: white !important;
+  box-shadow: 0px 0px 10px white !important;
+}
+
+.flex-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-card {
+  background-color: rgba(0, 0, 0, 0.6);
+  flex-grow: 1;
+  transition: 0.5s;
+  background-position: center;
+  background-size: cover;
+}
+.flex-card:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  flex-grow: 5;
+}
+.flex-card h5,
+.flex-card p {
+  margin: 0;
+}
+
+.footer-color {
+  background-color: #000 !important;
+  color: #fff;
+}
+
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.7s ease;
+}
+
+.footer-link:hover {
+  filter: drop-shadow(0px 0px 5px white);
+}
+
+.footer-social {
+  color: #fff;
+  font-size: 1.4rem;
+  transition: 0.8s ease;
+}
+
+.footer-social:hover {
+  filter: drop-shadow(0px 0px 5px white);
+}/*# sourceMappingURL=index.css.map */
